@@ -18,10 +18,10 @@ The circuit allows you to test different types of diodes, which require differen
 
 ## Design
 
-#### Schematic
+### Schematic
 ![board-schematic](resources/diode-tester_sch.jpg)
 
-#### Circuit Analysis
+### Circuit Analysis
 **Load driver network:**<br/>
 The load current must be adjustable between $1.0mA$ and $30mA$:
 
@@ -90,7 +90,7 @@ The JFET inputs of the OA ensure virtually no current is drawn from the test loo
 *Note*: When no diode is connected, the display will show the maximum available voltage ($VCC​−V_{drop}$​). This is normal behavior for a constant current generator operating at no load.
 
 
-#### LTspice Simulation
+### LTspice Simulation
 Below is the simulation of the circuit with the LTspice software.<br/>
 The simulation plots currents, voltages and powers on the transistors of the circuit, assuming a forward biased diode as a load. The simulation considers 2 different values ​​of $V_{CC}$ $(12V, 30V)$, for each of which the resistance $R_3$ is linearly modified from the value $15$&Omega; to $500$&Omega;, and then brought back to the value $15$&Omega;.<br/>
 Plot 2 shows voltage as a unit of measurement on the Y-axis $(15-500V)$, but it should be read as the resistance in Ohms of $R_3$ $(15-500$&Omega;$)$.<br/>
@@ -102,12 +102,12 @@ For the simulation, the value $H_{FE}=1000$ was set for the transistor $Q_3$.
 
 ## Implementation and Test
 
-#### PCB Layout
+### PCB Layout
 The circuit was assembled on a custom PCB (protoboard).
 
 ![board-pcb](resources/diode-tester_pcb.jpg)
 
-#### Calibration Procedure
+### Calibration Procedure
 Two-step process is required to align the internal measurement electronics and to set the operational test currents. This ensures that the displayed values accurately reflect the load characteristics without interference from component tolerances.
 
 **Measurement circuit setting:**<br/>
@@ -122,7 +122,7 @@ This step calibrates each position of the rotary switch (SW1) to deliver the exa
 2. For each switch position, adjust the corresponding trimmer (R3a through R3f) until the multimeter displays the target current (1mA, 2mA, 5mA, 10mA, 20mA, or 30mA).
 
 
-#### Test Log
+### Test Log
 
 
 ## Conclusions
