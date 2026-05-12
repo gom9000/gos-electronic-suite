@@ -28,12 +28,12 @@ The load current must be adjustable between $1.0mA$ and $30mA$:
 $I_{C3} = V_{BE2}/R_3$
 
 Assuming $V_{BE2} = 0.7V  \implies$
-- $R_{3_{1.0mA}} = 700$&Omega; $\implies R_{3a} = 1K$&Omega; trimmer
-- $R_{3_{2.0mA}} = 350$&Omega; $\implies R_{3b} = 500$&Omega; trimmer
-- $R_{3_{5.0mA}} = 140$&Omega; $\implies R_{3c} = 200$&Omega; trimmer
-- $R_{3_{10mA}} = 70$&Omega; $\implies R_{3d} = 100$&Omega; trimmer
-- $R_{3_{20mA}} = 35$&Omega; $\implies R_{3e} = 100$&Omega; trimmer
-- $R_{3_{30mA}} = 23$&Omega; $\implies R_{3f} = 100$&Omega; trimmer
+- $R_{3_{1.0mA}} = 700\Omega \implies R_{3a} = 1K\Omega$ trimmer
+- $R_{3_{2.0mA}} = 350\Omega \implies R_{3b} = 500\Omega$ trimmer
+- $R_{3_{5.0mA}} = 140\Omega \implies R_{3c} = 200\Omega$ trimmer
+- $R_{3_{10mA}} = 70\Omega \implies R_{3d} = 100\Omega$ trimmer
+- $R_{3_{20mA}} = 35\Omega \implies R_{3e} = 100\Omega$ trimmer
+- $R_{3_{30mA}} = 23\Omega \implies R_{3f} = 100\Omega$ trimmer
 
 $P_{R_{3_{MAX}}} = I_{C_{3_{MAX}}}^2 * R_{3_{MIN}} = 2mW$
 
@@ -48,13 +48,13 @@ $P_{Q_{3_{MAX}}} = V_{CE_{3_{MAX}}} * I_{C_{3_{MAX}}} = 0.7W$
 
 A medium-power transistor is needed for $Q_3$ with a small heatsink:
 
-&Theta; $_{jc} = 2.5$ &deg; $C/W$,
+$\Theta_{jc} = 2.5^{\circ} C/W$,
 
-&Theta; $_{hs} = (5 - 10)$ &deg; $C/W$
+$\Theta_{hs} = (5 - 10)^{\circ} C/W$
 
-Assuming $T_A = 30$&deg; $C$:
+Assuming $T_A = 30^{\circ} C$:
 
-$T_{Q_{3_{MAX}}} = T_A + P_{Q_{3_{MAX}}}*($ &Theta; $_{tot}) \leq 40$&deg; $C$
+$T_{Q_{3_{MAX}}} = T_A + P_{Q_{3_{MAX}}}*(\Theta_{tot}) \leq 40^{\circ} C$
 
 **Control & current reference network:**<br/>
 The role of the current reference network (a constant current generator) is to absorb the differences in the choice of the $V_{CC}$ value. In this way, the choice of Vcc determines only the maximum value of the Zener voltage that can be measured (tested) by the circuit. The control network (also a constant current generator) keeps the load current constant and ensures that $Q_3$ (and $Q_2$) always operates in the active zone.
@@ -69,9 +69,9 @@ $V_{CE_1} = V_{CC} - V_{R_2} - V_{CE_2} \implies V_{CE_1} = (9.1 - 21.1)V$
 For $Q_3$ it is better to use a Darlington (*), which has a high $H_{FE}$, so as to keep its base current small and also the reference current of $Q_1$.<br/>
 Assuming: $H_{FE_3} \geq 1000$
 
-$I_{B_{3_{MIN}}} = I_{C_{3_{MAX}}}/H_{FE_3} = 50$&micro; $A$
+$I_{B_{3_{MIN}}} = I_{C_{3_{MAX}}}/H_{FE_3} = 50\mu A$
 
-So we can set: $I_{R_2} = 5mA => R_2 = (2*V_D - V_{BE_1})/I_{R_2} = 100$&Omega;
+So we can set: $I_{R_2} = 5mA => R_2 = (2*V_D - V_{BE_1})/I_{R_2} = 100\Omega$
 
 $P_{Q_{1_{MAX}}} = V_{CE_{1_{MAX}}} * I_{R_2} = 115mW$
 
@@ -92,8 +92,8 @@ The JFET inputs of the OA ensure virtually no current is drawn from the test loo
 
 ### LTspice Simulation
 Below is the simulation of the circuit with the LTspice software.<br/>
-The simulation plots currents, voltages and powers on the transistors of the circuit, assuming a forward biased diode as a load. The simulation considers 2 different values ​​of $V_{CC}$ $(12V, 30V)$, for each of which the resistance $R_3$ is linearly modified from the value $15$&Omega; to $500$&Omega;, and then brought back to the value $15$&Omega;.<br/>
-Plot 2 shows voltage as a unit of measurement on the Y-axis $(15-500V)$, but it should be read as the resistance in Ohms of $R_3$ $(15-500$&Omega;$)$.<br/>
+The simulation plots currents, voltages and powers on the transistors of the circuit, assuming a forward biased diode as a load. The simulation considers 2 different values ​​of $V_{CC}$ $(12V, 30V)$, for each of which the resistance $R_3$ is linearly modified from the value $15\Omega$ to $500\Omega$, and then brought back to the value $15\Omega$.<br/>
+Plot 2 shows voltage as a unit of measurement on the Y-axis $(15-500V)$, but it should be read as the resistance in Ohms of $R_3$ $(15-500\Omega$)$.<br/>
 For the simulation, the value $H_{FE}=1000$ was set for the transistor $Q_3$.
 ![plot](resources/ltspice-plot.jpg)
 ![schematic](resources/ltspice-schematic.jpg)
@@ -118,8 +118,8 @@ This step balances the OA differential bridge to eliminate any residual voltage 
 
 **Current ranges setting:**<br/>
 This step calibrates each position of the rotary switch (SW1) to deliver the exact programmed test current through the load.
-1. Connect a multimeter set to DC Current (mA) mode across the TEST terminals.
-2. For each switch position, adjust the corresponding trimmer (R3a through R3f) until the multimeter displays the target current (1mA, 2mA, 5mA, 10mA, 20mA, or 30mA).
+1. Connect a multimeter set to DC Current ($mA$) mode across the TEST terminals.
+2. For each switch position, adjust the corresponding trimmer ($R_{3a}$ through $R_{3f}$) until the multimeter displays the target current ($1mA, 2mA, 5mA, 10mA, 20mA, or 30mA$).
 
 
 ### Test Log
