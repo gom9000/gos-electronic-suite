@@ -1,70 +1,48 @@
 # Electronic Suite
-Personal index of electronics-related repositories, organized by category.<br/>
+Personal hub of electronics-related repositories, organized by category.<br/>
 The work here grows from documented experiences: instruments are built after the theory is experienced, libraries emerge from repeated practice, projects are the result of both.<br/>
 A repository may appear in more than one section when it belongs to more than one category.
 
-These projects are guided by the KIS (Keep It Simple) philosophy, which in my vision includes the "build with what you have" principle.
-
-Designing with simple or "standard-grade" components requires extra attention to detail to ensure that hardware limitations do not affect the final reliability. Every "added" element, such as a calibration trimmer or a specific resistor network, is strategically chosen to bridge the gap between minimalist resources and more professional-level results.
+These projects follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations never compromise final reliability.
 
 
 ## Lab — Instruments & Test Equipment
-A set of custom-built instruments for the electronics workbench, covering power supply, component characterization, and load testing.
-
-The suite is an ongoing project aimed at creating a comprehensive ecosystem of reliable, home-made tools for the electronics workbench. New instruments are developed starting from documented laboratory experiences to ensure maximum reliability and empirical validation.
+Custom-built instruments and tools designed to equip the electronics workbench.
 
 ### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
-**Type**: Power Supply | **Complexity**: Low | **Status**: Completed
+**Type**: Power Supply | **Status**: Completed
 
-A versatile, multi-rail linear low-power supply unit designed to power bench prototypes.
-
-- **Key Features**:
-    - **Quad Output Rails**: Dedicated $3.3V$, $5V$, $9V$, and $12V$ regulated lines.
-    - **Current Capacity**: Supports up to $500mA$ combined for $3.3V/5V$ rails and $250mA$ combined for $9V/12V$ rails.
-    - **Linear Stability**: Uses standard $78xx$ series regulators and high-capacity filtering for low-ripple output.
+A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
 
 
 ### **[Diode Tester](https://github.com/gom9000/diode-tester)**
-**Type**: Component Tester | **Complexity**: Low/Mid | **Status**: Testing
+**Type**: Component Tester | **Status**: Testing
 
-Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under controlled conditions.
-
-- **Key Features**:
-    - **Selectable Constant Current**: Calibrated steps ($1mA, 2mA, 5mA, 10mA, 20mA, 30mA$) via rotary switch.
-    - **High Voltage Range**: Supports supply voltages up to $30VDC$, allowing characterization of a wide range of Zener diodes.
+Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
 
 
 ### **Dummy Load for Low-Power PSU *(coming soon)***
-**Type**: Active Load | **Complexity**: Mid | **Status**: In Development
+**Type**: Active Load | **Status**: In Development
 
-A Constant Current (CC) load for PSU stress testing.
-
-- **Key Features**:
-    - **CC Mode**: Adjustable current from $0A$ to $1A$ via potentiometer.
-    - **Thermal Safety**: Designed to handle up to $20W$ continuous dissipation.
-    - **Wide Input Range**: Stable regulation from $1.5V$ up to $30V$.
-
+A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
 
 ## XP — Documented Experiences
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects experiments with theoretical background and empirical results, and often serves as the foundation for lab instruments or standalone projects.
 
 ### **[xp-dummyload](https://github.com/gom9000/xp-dummyload)**
-**Type**: Active Load | **Complexity**: Low/Mid | **Status**: Development
+**Type**: Dummy Load | **Status**: Development
 
 A series of documented laboratory experiences on building simple dummy loads to test small PSUs.
-
-- **Key Features**:
-    - **Load Type**: Experiences with passive (resistive) and active (MOSFET) load types.
-    - **Operational Mode**: Development of CC, CV, CR and CP operational modes.
-
 
 ## Lib — Libraries & Reusable Assets
 Reusable assets for electronics design: ExpressPCB custom component libraries, LTspice models, and modular single-function boards (MOBs) for prototyping.
 
+*(No repositories linked yet — more coming soon)*
 
 ## Projects — Standalone
 Standalone electronics projects with a defined purpose.
 
+*(No repositories linked yet — more coming soon)*
 
 ## About
 **Author**: Alessandro Fraschetti (gom9000).
