@@ -5,6 +5,8 @@ A repository may appear in more than one section when it belongs to more than on
 
 These projects follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations never compromise final reliability.
 
+---
+---
 
 ## Lab — Instruments & Test Equipment
 Custom-built instruments and tools designed to equip the electronics workbench.
@@ -22,27 +24,67 @@ Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zen
 
 
 ### **Dummy Load for Low-Power PSU *(coming soon)***
-**Type**: Active Load | **Status**: In Development
+**Type**: Active Load | **Status**: Development
 
 A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
+
+---
+---
 
 ## XP — Documented Experiences
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects experiments with theoretical background and empirical results, and often serves as the foundation for lab instruments or standalone projects.
 
-### **[xp-dummyload](https://github.com/gom9000/xp-dummyload)**
+### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
 **Type**: Dummy Load | **Status**: Development
 
 A series of documented laboratory experiences on building simple dummy loads to test small PSUs.
 
-## Lib — Libraries & Reusable Assets
-Reusable assets for electronics design: ExpressPCB custom component libraries, LTspice models, and modular single-function boards (MOBs) for prototyping.
+### **[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**
+Type: Power Supply | Status: Development
 
-*(No repositories linked yet — more coming soon)*
+Design experiences and calculations for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
+
+### **[RaspberryPI eXPerience](https://github.com/gom9000/xp-raspberry)**
+Type: Hardware Interfacing | Status: Ongoing
+
+A collection of experiments focused on interfacing the RaspberryPi with the external world, covering MIDI protocols, shift registers (74HC595/165), and quadrature encoders.
+
+### **[SwitchBank eXPerience](https://github.com/gom9000/xp-switchbank)**
+Type: Hardware Interfacing | Status: Concept
+
+A study on the classification and implementation of switch-bank circuits (arrays and matrices), focusing on momentary switches.
+
+---
+---
+
+## Lib — Libraries & Reusable Assets
+Reusable assets (physical and digital formats) for electronics design.
+
+### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
+**Type**: CAD Library | **Status**: Ongoing
+
+A comprehensive collection of custom schematic symbols and PCB footprints designed for the ExpressPCB CAD software.
+
+### **[LTspice Models Library](https://github.com/gom9000/ltspice-goslib)**
+**Type**: Simulation Library | **Status**: Ongoing
+
+A set of custom models and subcircuits for LTspice simulations, including power transistors, voltage level adapters, and functional blocks used to validate circuit designs.
+
+### **[MOdule Boards Library (MOBs)](https://github.com/gom9000/mobs-library)**
+**Type**: Prototyping Library | **Status**: Ongoing
+
+A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
+
+---
+---
 
 ## Projects — Standalone
 Standalone electronics projects with a defined purpose.
 
 *(No repositories linked yet — more coming soon)*
+
+---
+---
 
 ## About
 **Author**: Alessandro Fraschetti (gom9000).
