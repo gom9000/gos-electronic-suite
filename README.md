@@ -63,7 +63,7 @@ Reusable assets (physical and digital formats) for electronics design.
 ### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
 **Type**: CAD Library | **Status**: Ongoing
 
-A comprehensive collection of custom schematic symbols and PCB footprints designed for the ExpressPCB CAD software.
+A collection of custom schematic symbols and PCB footprints designed for the ExpressPCB CAD software.
 
 ### **[LTspice Models Library](https://github.com/gom9000/ltspice-goslib)**
 **Type**: Simulation Library | **Status**: Ongoing
