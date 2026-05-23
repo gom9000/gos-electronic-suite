@@ -7,7 +7,6 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 ---
 ---
 
-## Lab — Instruments & Test Equipment
 <img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
 Custom-built instruments and tools designed to equip my electronics workbench.
 
@@ -29,9 +28,7 @@ Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zen
 A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
 
 ---
----
 
-## XP — Documented Experiences
 <img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
@@ -61,9 +58,7 @@ A study on the classification and implementation of switch-bank circuits (arrays
 A laboratory experience designing a modular controller for the lighting of a crib (nativity scene), with zero digital components, shifting state-machine logic and daily-phase timings entirely onto discrete BJTs, diodes, and operational amplifiers.
 
 ---
----
 
-## Lib — Libraries & Reusable Assets
 <img src="resources/banner-lib.svg" width="100%" alt="Lib Banner">
 Reusable assets (physical and digital formats) for electronics design.
 
@@ -83,10 +78,8 @@ A set of custom models and subcircuits for LTspice simulations, including power 
 A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
 
 ---
----
 
-## Projects — Standalone
-<img src="resources/banner-project.svg" width="100%" alt="Project Banner">
+<img src="resources/banner-project.svg" height="59px" width="100%" alt="Project Banner">
 Standalone electronics projects with a defined purpose.
 
 ### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
