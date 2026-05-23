@@ -4,8 +4,9 @@ The work here grows from documented experiences: instruments are built after the
 
 These projects follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
 
+
 ---
----
+
 
 <img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
 Custom-built instruments and tools designed to equip my electronics workbench.
@@ -101,7 +102,6 @@ Standalone electronics projects with a defined purpose.
 >A C-based programmer tool for 5V parallel EEPROMs of the 28C family hosted by a Raspberry Pi. The tool leverages bidirectional level translators to safely control and write data to the target non-volatile memories via terminal commands.
 
 
----
 ---
 
 
