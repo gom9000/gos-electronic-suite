@@ -34,12 +34,12 @@ A 20W Constant Current (CC) load for PSU stress testing with adjustable current 
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 ### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
-**Type**: Dummy Load | **Status**: Development
+**Type**: Dummy Load Design | **Status**: Development
 
 A series of experiences on building simple dummy loads to test small PSUs.
 
 ### **[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**
-**Type**: Power Supply | **Status**: Development
+**Type**: Power Supply Design | **Status**: Development
 
 Design experiences for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
 
@@ -54,10 +54,14 @@ A collection of experiments focused on interfacing the RaspberryPi with the exte
 A study on the classification and implementation of switch-bank circuits (arrays and matrices), focusing on momentary switches.
 
 ### **[EEPROM 28C Programmer eXPerience](https://github.com/gom9000/xp-eeprom-28C-programmer)**
-
-Type: Hardware Interfacing & Tool | Status: Completed
+**Type**: Hardware Interfacing & Tool | **Status**: Completed
 
 A documented experience in interfacing a Raspberry Pi (3.3V GPIOs) with 5V parallel EEPROMs (28C family) via bidirectional level translators, creating a working C-based programming tool.
+
+### **[Presepe Lights-Controller eXPerience](https://github.com/gom9000/xp-presepe-lights)**
+**Type**: Analog Design | **Status**: Ongoing
+
+A laboratory experience designing a modular controller for the lighting of a crib (nativity scene), with zero digital components, shifting state-machine logic and daily-phase timings entirely onto discrete BJTs, diodes, and operational amplifiers.
 
 ---
 ---
@@ -86,7 +90,10 @@ A versatile collection of modular, single-function boards designed for rapid pro
 ## Projects — Standalone
 Standalone electronics projects with a defined purpose.
 
-*(No repositories linked yet — more coming soon)*
+### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
+**Type**: Lighting | **Status**: Completed
+
+A set of simple modular, low-current, lighting controllers designed for the native scene display.
 
 ---
 ---
