@@ -10,27 +10,30 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 <img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
 Custom-built instruments and tools designed to equip my electronics workbench.
 
-### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
-**Type**: Power Supply | **Status**: Completed
 
-A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
+>### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
+>**Type**: Power Supply | **Status**: Completed
+>
+>A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
 
+> [!NOTE]
+>### **[Diode Tester](https://github.com/gom9000/diode-tester)**
+>**Type**: Component Tester | **Status**: Testing
+>
+>Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
 
-### **[Diode Tester](https://github.com/gom9000/diode-tester)**
-**Type**: Component Tester | **Status**: Testing
+>### **Dummy Load for Low-Power PSU *(coming soon)***
+>**Type**: Active Load | **Status**: Development
+>
+>A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
 
-Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
-
-
-### **Dummy Load for Low-Power PSU *(coming soon)***
-**Type**: Active Load | **Status**: Development
-
-A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
 
 ---
 
+
 <img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
+
 
 ### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
 **Type**: Dummy Load Design | **Status**: Development
@@ -57,10 +60,13 @@ A study on the classification and implementation of switch-bank circuits (arrays
 
 A laboratory experience designing a modular controller for the lighting of a crib (nativity scene), with zero digital components, shifting state-machine logic and daily-phase timings entirely onto discrete BJTs, diodes, and operational amplifiers.
 
+
 ---
+
 
 <img src="resources/banner-lib.svg" width="100%" alt="Lib Banner">
 Reusable assets (physical and digital formats) for electronics design.
+
 
 ### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
 **Type**: CAD Library | **Status**: Ongoing
@@ -77,10 +83,13 @@ A set of custom models and subcircuits for LTspice simulations, including power 
 
 A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
 
+
 ---
+
 
 <img src="resources/banner-project.svg" width="100%" alt="Project Banner">
 Standalone electronics projects with a defined purpose.
+
 
 ### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
 **Type**: Standalone Project | **Status**: Completed
@@ -92,8 +101,10 @@ A set of simple modular, low-current, lighting controllers designed for the nati
 
 A C-based programmer tool for 5V parallel EEPROMs of the 28C family hosted by a Raspberry Pi. The tool leverages bidirectional level translators to safely control and write data to the target non-volatile memories via terminal commands.
 
+
 ---
 ---
+
 
 ## About
 **Author**: Alessandro Fraschetti (gom9000).
