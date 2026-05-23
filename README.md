@@ -1,7 +1,6 @@
 # Electronic Suite
 Personal hub of electronics-related repositories, organized by category.<br/>
-The work here grows from documented experiences: instruments are built after the theory is experienced, libraries emerge from repeated practice, projects are the result of both.<br/>
-A repository may appear in more than one section when it belongs to more than one category.
+The work here grows from documented experiences: instruments are built after the theory is experienced, libraries emerge from repeated practice, projects are the result of both.
 
 These projects follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
 
@@ -9,7 +8,7 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 ---
 
 ## Lab — Instruments & Test Equipment
-Custom-built instruments and tools designed to equip the electronics workbench.
+Custom-built instruments and tools designed to equip my electronics workbench.
 
 ### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
 **Type**: Power Supply | **Status**: Completed
@@ -32,22 +31,22 @@ A 20W Constant Current (CC) load for PSU stress testing with adjustable current 
 ---
 
 ## XP — Documented Experiences
-A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for lab instruments or standalone projects.
+A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 ### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
 **Type**: Dummy Load | **Status**: Development
 
-A series of documented laboratory experiences on building simple dummy loads to test small PSUs.
+A series of experiences on building simple dummy loads to test small PSUs.
 
 ### **[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**
 **Type**: Power Supply | **Status**: Development
 
-Design experiences and calculations for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
+Design experiences for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
 
 ### **[RaspberryPI eXPerience](https://github.com/gom9000/xp-raspberry)**
 **Type**: Hardware Interfacing | **Status**: Ongoing
 
-A collection of experiments focused on interfacing the RaspberryPi with the external world, covering MIDI protocols, shift registers (74HC595/165), and quadrature encoders.
+A collection of experiments focused on interfacing the RaspberryPi with the external world.
 
 ### **[SwitchBank eXPerience](https://github.com/gom9000/xp-switchbank)**
 **Type**: Hardware Interfacing | **Status**: Concept
