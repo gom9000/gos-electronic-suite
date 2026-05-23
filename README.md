@@ -8,7 +8,7 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 ---
 
 
-<img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
+<br/><img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
 Custom-built instruments and tools designed to equip my electronics workbench.
 
 
@@ -31,7 +31,7 @@ Custom-built instruments and tools designed to equip my electronics workbench.
 ---
 
 
-<img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
+<br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 
@@ -64,7 +64,7 @@ A series of documented laboratory experiences exploring specific components, tec
 ---
 
 
-<img src="resources/banner-lib.svg" width="100%" alt="Lib Banner">
+<br/><img src="resources/banner-lib.svg" width="100%" alt="Lib Banner">
 Reusable assets (physical and digital formats) for electronics design.
 
 
@@ -87,7 +87,7 @@ Reusable assets (physical and digital formats) for electronics design.
 ---
 
 
-<img src="resources/banner-project.svg" width="100%" alt="Project Banner">
+<br/><img src="resources/banner-project.svg" width="100%" alt="Project Banner">
 Standalone electronics projects with a defined purpose.
 
 
@@ -95,6 +95,11 @@ Standalone electronics projects with a defined purpose.
 >**Type**: Standalone Project | **Status**: Completed
 >
 >A set of simple modular, low-current, lighting controllers designed for the native scene display.
+
+>### **[UnoZero - Digital Logic Experiences](https://github.com/gom9000/unozero)**
+>**Type**: Standalone Project | **Status**: Ongoing
+>
+>A modular educational hardware kit designed to build and explore digital logic systems without requiring deep discrete electronics knowledge. The system features a custom ecosystem of interconnected single-function boards (SF) - including clock generators, pulse sources, BCD displays, and counters - to perform hand-on laboratory experiments inspired by the classic Bugbook series.
 
 >### **[EEPROM 28C Programmer](https://github.com/gom9000/eeprom-28C-programmer)**
 >**Type**: Hosted Project | **Status**: Completed
