@@ -79,7 +79,7 @@ A versatile collection of modular, single-function boards designed for rapid pro
 
 ---
 
-<img src="resources/banner-project.svg" height="59px" width="100%" alt="Project Banner">
+<img src="resources/banner-project.svg" width="100%" alt="Project Banner">
 Standalone electronics projects with a defined purpose.
 
 ### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
