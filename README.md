@@ -53,6 +53,12 @@ A collection of experiments focused on interfacing the RaspberryPi with the exte
 
 A study on the classification and implementation of switch-bank circuits (arrays and matrices), focusing on momentary switches.
 
+### **[EEPROM 28C Programmer eXPerience](https://github.com/gom9000/xp-eeprom-28C-programmer)**
+
+Type: Hardware Interfacing & Tool | Status: Completed
+
+A documented experience in interfacing a Raspberry Pi (3.3V GPIOs) with 5V parallel EEPROMs (28C family) via bidirectional level translators, creating a working C-based programming tool.
+
 ---
 ---
 
