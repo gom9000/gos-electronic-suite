@@ -16,7 +16,6 @@ Custom-built instruments and tools designed to equip my electronics workbench.
 >
 >A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
 
-> [!NOTE]
 >### **[Diode Tester](https://github.com/gom9000/diode-tester)**
 >**Type**: Component Tester | **Status**: Testing
 >
@@ -35,30 +34,30 @@ Custom-built instruments and tools designed to equip my electronics workbench.
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 
-### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
-**Type**: Dummy Load Design | **Status**: Development
+>### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
+>**Type**: Dummy Load Design | **Status**: Development
+>
+>A series of experiences on building simple dummy loads to test small PSUs.
 
-A series of experiences on building simple dummy loads to test small PSUs.
+>### **[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**
+>**Type**: Power Supply Design | **Status**: Development
+>
+>Design experiences for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
 
-### **[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**
-**Type**: Power Supply Design | **Status**: Development
+>### **[RaspberryPI eXPerience](https://github.com/gom9000/xp-raspberry)**
+>**Type**: Hardware Interfacing | **Status**: Ongoing
+>
+>A collection of experiments focused on interfacing the RaspberryPi with the external world.
 
-Design experiences for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
+>### **[SwitchBank eXPerience](https://github.com/gom9000/xp-switchbank)**
+>**Type**: Hardware Interfacing | **Status**: Concept
+>
+>A study on the classification and implementation of switch-bank circuits (arrays and matrices), focusing on momentary switches.
 
-### **[RaspberryPI eXPerience](https://github.com/gom9000/xp-raspberry)**
-**Type**: Hardware Interfacing | **Status**: Ongoing
-
-A collection of experiments focused on interfacing the RaspberryPi with the external world.
-
-### **[SwitchBank eXPerience](https://github.com/gom9000/xp-switchbank)**
-**Type**: Hardware Interfacing | **Status**: Concept
-
-A study on the classification and implementation of switch-bank circuits (arrays and matrices), focusing on momentary switches.
-
-### **[Presepe Lights-Controller eXPerience](https://github.com/gom9000/xp-presepe-lights)**
-**Type**: Analog Design | **Status**: Ongoing
-
-A laboratory experience designing a modular controller for the lighting of a crib (nativity scene), with zero digital components, shifting state-machine logic and daily-phase timings entirely onto discrete BJTs, diodes, and operational amplifiers.
+>### **[Presepe Lights-Controller eXPerience](https://github.com/gom9000/xp-presepe-lights)**
+>**Type**: Analog Design | **Status**: Ongoing
+>
+>A laboratory experience designing a modular controller for the lighting of a crib (nativity scene), with zero digital components, shifting state-machine logic and daily-phase timings entirely onto discrete BJTs, diodes, and operational amplifiers.
 
 
 ---
@@ -68,20 +67,20 @@ A laboratory experience designing a modular controller for the lighting of a cri
 Reusable assets (physical and digital formats) for electronics design.
 
 
-### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
-**Type**: CAD Library | **Status**: Ongoing
+>### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
+>**Type**: CAD Library | **Status**: Ongoing
+>
+>A collection of custom schematic symbols and PCB footprints designed for the ExpressPCB CAD software.
 
-A collection of custom schematic symbols and PCB footprints designed for the ExpressPCB CAD software.
+>### **[LTspice Models Library](https://github.com/gom9000/ltspice-goslib)**
+>**Type**: Simulation Library | **Status**: Ongoing
+>
+>A set of custom models and subcircuits for LTspice simulations, including power transistors, voltage level adapters, and functional blocks used to validate circuit designs.
 
-### **[LTspice Models Library](https://github.com/gom9000/ltspice-goslib)**
-**Type**: Simulation Library | **Status**: Ongoing
-
-A set of custom models and subcircuits for LTspice simulations, including power transistors, voltage level adapters, and functional blocks used to validate circuit designs.
-
-### **[MOdule Boards Library (MOBs)](https://github.com/gom9000/mobs-library)**
-**Type**: Prototyping Library | **Status**: Ongoing
-
-A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
+>### **[MOdule Boards Library (MOBs)](https://github.com/gom9000/mobs-library)**
+>**Type**: Prototyping Library | **Status**: Ongoing
+>
+>A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
 
 
 ---
@@ -91,15 +90,15 @@ A versatile collection of modular, single-function boards designed for rapid pro
 Standalone electronics projects with a defined purpose.
 
 
-### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
-**Type**: Standalone Project | **Status**: Completed
+>### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
+>**Type**: Standalone Project | **Status**: Completed
+>
+>A set of simple modular, low-current, lighting controllers designed for the native scene display.
 
-A set of simple modular, low-current, lighting controllers designed for the native scene display.
-
-### **[EEPROM 28C Programmer](https://github.com/gom9000/eeprom-28C-programmer)**
-**Type**: Hosted Project | **Status**: Completed
-
-A C-based programmer tool for 5V parallel EEPROMs of the 28C family hosted by a Raspberry Pi. The tool leverages bidirectional level translators to safely control and write data to the target non-volatile memories via terminal commands.
+>### **[EEPROM 28C Programmer](https://github.com/gom9000/eeprom-28C-programmer)**
+>**Type**: Hosted Project | **Status**: Completed
+>
+>A C-based programmer tool for 5V parallel EEPROMs of the 28C family hosted by a Raspberry Pi. The tool leverages bidirectional level translators to safely control and write data to the target non-volatile memories via terminal commands.
 
 
 ---
