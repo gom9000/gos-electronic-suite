@@ -8,6 +8,7 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 ---
 
 ## Lab — Instruments & Test Equipment
+<img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
 Custom-built instruments and tools designed to equip my electronics workbench.
 
 ### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
@@ -31,6 +32,7 @@ A 20W Constant Current (CC) load for PSU stress testing with adjustable current 
 ---
 
 ## XP — Documented Experiences
+<img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 ### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
@@ -62,6 +64,7 @@ A laboratory experience designing a modular controller for the lighting of a cri
 ---
 
 ## Lib — Libraries & Reusable Assets
+<img src="resources/banner-lib.svg" width="100%" alt="Lib Banner">
 Reusable assets (physical and digital formats) for electronics design.
 
 ### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
@@ -83,6 +86,7 @@ A versatile collection of modular, single-function boards designed for rapid pro
 ---
 
 ## Projects — Standalone
+<img src="resources/banner-project.svg" width="100%" alt="Project Banner">
 Standalone electronics projects with a defined purpose.
 
 ### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
