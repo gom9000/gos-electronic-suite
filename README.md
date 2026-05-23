@@ -53,11 +53,6 @@ A collection of experiments focused on interfacing the RaspberryPi with the exte
 
 A study on the classification and implementation of switch-bank circuits (arrays and matrices), focusing on momentary switches.
 
-### **[EEPROM 28C Programmer eXPerience](https://github.com/gom9000/xp-eeprom-28C-programmer)**
-**Type**: Hardware Interfacing & Tool | **Status**: Completed
-
-A documented experience in interfacing a Raspberry Pi (3.3V GPIOs) with 5V parallel EEPROMs (28C family) via bidirectional level translators, creating a working C-based programming tool.
-
 ### **[Presepe Lights-Controller eXPerience](https://github.com/gom9000/xp-presepe-lights)**
 **Type**: Analog Design | **Status**: Ongoing
 
@@ -91,9 +86,14 @@ A versatile collection of modular, single-function boards designed for rapid pro
 Standalone electronics projects with a defined purpose.
 
 ### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
-**Type**: Lighting | **Status**: Completed
+**Type**: Standalone Project | **Status**: Completed
 
 A set of simple modular, low-current, lighting controllers designed for the native scene display.
+
+### **[EEPROM 28C Programmer](https://github.com/gom9000/eeprom-28C-programmer)**
+**Type**: Hosted Project | **Status**: Completed
+
+A C-based programmer tool for 5V parallel EEPROMs of the 28C family hosted by a Raspberry Pi. The tool leverages bidirectional level translators to safely control and write data to the target non-volatile memories via terminal commands.
 
 ---
 ---
