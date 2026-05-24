@@ -117,11 +117,6 @@ Electronics projects with a defined purpose and, sometimes, a concrete utility.
 >
 >A hardware-based remote controller designed to trigger the focus and shutter stages of DSLR cameras, specifically tested on the Canon EOS400D. The system uses a PIC12F implementation written in Assembly (MPASM), interfacing with the camera via a standard 3-pin remote terminal.
 
->**[Floppyti - A MIDI Floppy-Drive Music Player](https://github.com/gom9000/floppyti)**<br/>
->**Type**: Standalone Project | **Status**: Completed
->
->A hardware-based music player that converts MIDI-IN messages into musical notes by controlling the stepper motor movements of a standard floppy disk drive. The system features a bare-metal implementation on a PIC 16F6x8 microcontroller and custom hardware designed to interface the MIDI protocol directly with the drive's mechanical controller.
-
 
 ---
 
