@@ -11,7 +11,6 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 <br/><img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
 Custom-built instruments and tools designed to equip my electronics workbench.
 
-
 >### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
 >**Type**: Power Supply | **Status**: Completed
 >
@@ -32,8 +31,7 @@ Custom-built instruments and tools designed to equip my electronics workbench.
 
 
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
-A series of documented laboratory experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
-
+A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 >### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
 >**Type**: Dummy Load Design | **Status**: Development
@@ -72,6 +70,10 @@ A series of documented laboratory experiences exploring specific components, tec
 <br/><img src="resources/banner-lib.svg" width="100%" alt="Lib Banner">
 Reusable assets (physical and digital formats) for electronics design.
 
+>### **[MOdule Boards Library (MOBs)](https://github.com/gom9000/mobs-library)**
+>**Type**: Prototyping Library | **Status**: Ongoing
+>
+>A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
 
 >### **[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**
 >**Type**: CAD Library | **Status**: Ongoing
@@ -83,18 +85,12 @@ Reusable assets (physical and digital formats) for electronics design.
 >
 >A set of custom models and subcircuits for LTspice simulations, including power transistors, voltage level adapters, and functional blocks used to validate circuit designs.
 
->### **[MOdule Boards Library (MOBs)](https://github.com/gom9000/mobs-library)**
->**Type**: Prototyping Library | **Status**: Ongoing
->
->A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
-
 
 ---
 
 
 <br/><img src="resources/banner-project.svg" width="100%" alt="Project Banner">
-Standalone electronics projects with a defined purpose.
-
+Electronics projects with a defined purpose and, sometimes, a concrete utility.
 
 >### **[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**
 >**Type**: Standalone Project | **Status**: Completed
