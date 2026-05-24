@@ -60,6 +60,11 @@ A series of documented laboratory experiences exploring specific components, tec
 >
 >A laboratory experience designing a modular controller for the lighting of a crib (nativity scene), with zero digital components, shifting state-machine logic and daily-phase timings entirely onto discrete BJTs, diodes, and operational amplifiers.
 
+>### **[PIC Assembly eXPerience](https://github.com/gom9000/xp-pic-assembly)**
+>**Type**: Firmware Design | **Status**: Ongoing
+>
+> A technical diary of my learning journey with Assembly language for PIC microcontrollers (Mid-Range series). It covers base templates, timing routines (delays), I/O management with software debounce, and a cooperative scheduler designed for regular task execution. The experience also includes low-level MIDI protocol implementation (documented in the dedicated **[PIC Assembly MIDI eXPerience](https://github.com/gom9000/xp-pic-assembly-midi)** repository) with experiments on serial interfacing and bare-metal data transmission.
+
 
 ---
 
