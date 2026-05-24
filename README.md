@@ -16,7 +16,7 @@ A series of experiences exploring specific components, techniques, and design ap
 >
 >A series of experiences on building different kinds of dummy loads to test small PSUs.
 
->### **[SimpleBUS - A Simple BUS System eXPerience](xp-simplebus)**
+>### **[SimpleBUS - A Simple BUS System eXPerience](https://github.com/gom9000/xp-simplebus)**
 >**Type**: BUS Architecture | **Status**: Ongoing
 >
 >A home didactic experience focused on designing and implementing a simple 8-bit, I/O oriented BUS system. It includes the design of backplanes, activity monitors, and bridge boards to interface the system with CPUs like Raspberry Pi and PICmicro.
