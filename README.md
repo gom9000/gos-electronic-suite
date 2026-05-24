@@ -8,35 +8,13 @@ These projects follow a KIS (Keep It Simple) approach: building with what is ava
 ---
 
 
-<br/><img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
-Custom-built instruments and tools designed to equip my electronics workbench.
-
->### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
->**Type**: Power Supply | **Status**: Completed
->
->A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
-
->### **[Diode Tester](https://github.com/gom9000/diode-tester)**
->**Type**: Component Tester | **Status**: Testing
->
->Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
-
->### **Dummy Load for Low-Power PSU *(coming soon)***
->**Type**: Active Load | **Status**: Development
->
->A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
-
-
----
-
-
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
 >### **[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**
 >**Type**: Dummy Load Design | **Status**: Development
 >
->A series of experiences on building simple dummy loads to test small PSUs.
+>A series of experiences on building different kinds of dummy loads to test small PSUs.
 
 >### **[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**
 >**Type**: Power Supply Design | **Status**: Development
@@ -84,6 +62,28 @@ Reusable assets (physical and digital formats) for electronics design.
 >**Type**: Simulation Library | **Status**: Ongoing
 >
 >A set of custom models and subcircuits for LTspice simulations, including power transistors, voltage level adapters, and functional blocks used to validate circuit designs.
+
+
+---
+
+
+<br/><img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
+Custom-built instruments and tools designed to equip my electronics workbench.
+
+>### **[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**
+>**Type**: Power Supply | **Status**: Completed
+>
+>A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
+
+>### **[Diode Tester](https://github.com/gom9000/diode-tester)**
+>**Type**: Component Tester | **Status**: Testing
+>
+>Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
+
+>### **Dummy Load for Low-Power PSU *(coming soon)***
+>**Type**: Active Load | **Status**: Development
+>
+>A 20W Constant Current (CC) load for PSU stress testing with adjustable current from 0A to 1A and input range from 1.5V to 30V.
 
 
 ---
