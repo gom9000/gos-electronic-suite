@@ -2,7 +2,7 @@
 Personal hub of electronics-related repositories, organized by category.<br/>
 The work here grows from documented experiences: instruments are built after the theory is experienced, libraries emerge from repeated practice, projects are the result of both.
 
-These projects follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
+These projects, when possible, follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
 
 
 ---
