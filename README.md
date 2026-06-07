@@ -11,8 +11,13 @@ These projects, when possible, follow a KIS (Keep It Simple) approach: building 
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
 
+>**[Circuit Blocks eXPerience](https://github.com/gom9000/xp-circuit-blocks)**<br/>
+>**Type**: Circuit Design | **Status**: Ongoing
+>
+>A series of experiences focused on testing, measuring, and dimensioning fundamental circuit building blocks.
+
 >**[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**<br/>
->**Type**: Dummy Load Design | **Status**: Development
+>**Type**: Dummy Load Design | **Status**: Ongoing
 >
 >A series of experiences on building different kinds of dummy loads to test small PSUs.
 
@@ -22,7 +27,7 @@ A series of experiences exploring specific components, techniques, and design ap
 >A home didactic experience focused on designing and implementing a simple 8-bit, I/O oriented BUS system. It includes the design of backplanes, activity monitors, and bridge boards to interface the system with CPUs like Raspberry Pi and PICmicro.
 
 >**[PowerBank PSU eXPerience](https://github.com/gom9000/xp-powerbank)**<br/>
->**Type**: Power Supply Design | **Status**: Development
+>**Type**: Power Supply Design | **Status**: Ongoing
 >
 >Design experiences for powering multiple 9V audio stomp boxes, exploring different power sources from external adapters to direct mains connection.
 
