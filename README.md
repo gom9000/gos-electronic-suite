@@ -1,15 +1,15 @@
 # Electronic Suite
 Personal hub of electronics-related repositories, organized by category.<br/>
-The work here grows from documented experiences: instruments are built after the theory is experienced, libraries emerge from repeated practice, projects are the result of both.
+The work here grows from documented experiences: projects are built after the theory is experienced, libraries emerge from repeated practice.
 
-These projects, when possible, follow a KIS (Keep It Simple) approach: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
+These projects, when possible, follow a *Keep It Simple* approach, where simplicity means reducing degrees of freedom: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
 
 
 ---
 
 
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
-A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my lab instruments or standalone projects.
+A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my other projects.
 
 >**[Circuit Blocks eXPerience](https://github.com/gom9000/xp-circuit-blocks)**<br/>
 >**Type**: Circuit Design | **Status**: Ongoing
@@ -78,7 +78,7 @@ Reusable assets (physical and digital formats) for electronics design.
 
 
 <br/><img src="resources/banner-lab.svg" width="100%" alt="Lab Banner">
-Custom-built instruments and tools designed to equip my electronics workbench.
+Custom-built instruments and tools designed to equip my workbench.
 
 >**[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**<br/>
 >**Type**: Power Supply | **Status**: Completed
