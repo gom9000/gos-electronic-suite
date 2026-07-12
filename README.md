@@ -11,6 +11,11 @@ These projects, when possible, follow a *Keep It Simple* approach, where simplic
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my other projects.
 
+>**[Hardware Notes](https://github.com/gom9000/hardware-notes)**<br/>
+>**Type**: Hardware Design | **Status**: Ongoing
+>
+>A collection of practical notes about hardware calculations and development.
+
 >**[Circuit Blocks eXPerience](https://github.com/gom9000/xp-circuit-blocks)**<br/>
 >**Type**: Circuit Design | **Status**: Ongoing
 >
