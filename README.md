@@ -4,13 +4,13 @@ The work here grows from documented experiences: projects are built after the th
 
 These projects, when possible, follow a *Keep It Simple* approach, where simplicity means reducing degrees of freedom: building with what is available, standard-grade components included. The constraint is part of the design, requiring extra attention to detail to ensure that hardware limitations do not compromise final functionality.
 
-
+ 
 ---
 
 
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my other projects.
-*In this context an eXPerience (XP) is not just an experiment, but the documented knowledge distilled from designing, building, testing, and reflecting on a specific technical problem. The latin experientia.*
+*In this context an eXPerience (XP) is intended in the original sense of the Latin experientia: knowledge distilled from experimenting through designing, building, testing, and reflecting on a specific technical problem.*
 
 >**[Hardware Notes](https://github.com/gom9000/hardware-notes)**<br/>
 >**Type**: Hardware Design | **Status**: Ongoing
