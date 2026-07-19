@@ -10,7 +10,7 @@ These projects, when possible, follow a *Keep It Simple* approach, where simplic
 
 <br/><img src="resources/banner-xp.svg" width="100%" alt="XP Banner">
 A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my other projects.
-*In this context an eXPerience (XP) is intended in the original sense of the Latin experientia: knowledge distilled from experimenting through designing, building, testing, and reflecting on a specific technical problem.*
+*In this context an experience is intended in the original sense of the Latin experientia, where experimentation and experience are inseparable: knowledge distilled from designing, building, testing, and reflecting on a specific technical problem.*
 
 >**[Hardware Notes](https://github.com/gom9000/hardware-notes)**<br/>
 >**Type**: Hardware Design | **Status**: Ongoing
