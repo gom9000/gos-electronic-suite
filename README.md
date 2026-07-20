@@ -12,15 +12,15 @@ These projects, when possible, follow a *Keep It Simple* approach, where simplic
 A series of experiences exploring specific components, techniques, and design approaches. Each repository collects notes, circuit tests, and real-world measurements, and often serves as the foundation for my other projects.
 *In this context an experience is intended in the original sense of the Latin experientia, where experimentation and experience are inseparable: knowledge distilled from designing, building, testing, and reflecting on a specific technical problem.*
 
->**[Hardware Notes](https://github.com/gom9000/hardware-notes)**<br/>
->**Type**: Hardware Design | **Status**: Ongoing
+>**[Hardware eXPerience](https://github.com/gom9000/xp-hardware)**<br/>
+>**Type**: Design | **Status**: Ongoing
 >
->A collection of practical notes about hardware calculations and development.
+>A collection of reusable engineering knowledge built through practical experimentation.
+>It is organized into two sections:
+>
+>- **Hardware Notes**: practical notes about hardware calculations and development.
+>- **Circuit Building Blocks**: a series of experiences focused on understanding, testing and dimensioning fundamental circuit building blocks.
 
->**[Circuit Blocks eXPerience](https://github.com/gom9000/xp-circuit-blocks)**<br/>
->**Type**: Circuit Design | **Status**: Ongoing
->
->A series of experiences focused on testing, measuring, and dimensioning fundamental circuit building blocks.
 
 >**[PSU Dummy Load eXPerience](https://github.com/gom9000/xp-dummyload)**<br/>
 >**Type**: Dummy Load Design | **Status**: Ongoing
