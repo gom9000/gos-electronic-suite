@@ -116,7 +116,7 @@ Electronics projects with a defined purpose and, sometimes, a concrete utility.
 >**[UnoZero - Digital Logic Experiences](https://github.com/gom9000/unozero)**<br/>
 >**Type**: Standalone Project | **Status**: Ongoing
 >
->A modular educational hardware kit designed to build and explore digital logic systems without requiring deep discrete electronics knowledge. The system features a custom ecosystem of interconnected single-function boards (SF) - including clock generators, pulse sources, BCD displays, and counters - to perform hand-on laboratory experiments inspired by the classic Bugbook series.
+>A modular educational hardware kit designed to build and explore digital logic systems without requiring deep discrete electronics knowledge. The system features a custom ecosystem of interconnected single-function boards (SF) - including clock generators, pulse sources, BCD displays, and counters - to perform hands-on laboratory experiments inspired by the classic Bugbook series.
 
 >**[EEPROM 28C Programmer](https://github.com/gom9000/eeprom-28C-programmer)**<br/>
 >**Type**: Hosted Project | **Status**: Completed
