@@ -40,7 +40,7 @@ A series of experiences exploring specific components, techniques, and design ap
 >**[RaspberryPI eXPerience](https://github.com/gom9000/xp-raspberry)**<br/>
 >**Type**: Hardware Interfacing | **Status**: Ongoing
 >
->A collection of experiments focused on interfacing the RaspberryPi with the external world.
+>A collection of experiments focused on interfacing the Raspberry Pi with the external world.
 
 >**[SwitchBank eXPerience](https://github.com/gom9000/xp-switchbank)**<br/>
 >**Type**: Hardware Interfacing | **Status**: Concept
@@ -111,7 +111,7 @@ Electronics projects with a defined purpose and, sometimes, a concrete utility.
 >**[Modular Presepe Lights](https://github.com/gom9000/modular-presepe-lights)**<br/>
 >**Type**: Standalone Project | **Status**: Completed
 >
->A set of simple modular, low-current, lighting controllers designed for the native scene display.
+>A set of simple modular, low-current, lighting controllers designed for the nativity scene display.
 
 >**[UnoZero - Digital Logic Experiences](https://github.com/gom9000/unozero)**<br/>
 >**Type**: Standalone Project | **Status**: Ongoing
