@@ -67,7 +67,7 @@ Reusable assets (physical and digital formats) for electronics design.
 >**[MOdule Boards Library (MOBs)](https://github.com/gom9000/mobs-library)**<br/>
 >**Type**: Prototyping Library | **Status**: Ongoing
 >
->A versatile collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
+>A collection of modular, single-function boards designed for rapid prototyping, component testing, and interfacing. Includes its own dedicated ExpressPCB library for board layouts.
 
 >**[ExpressPCB Custom Library](https://github.com/gom9000/expresspcb-goslib)**<br/>
 >**Type**: CAD Library | **Status**: Ongoing
@@ -89,12 +89,12 @@ Custom-built instruments and tools designed to equip my workbench.
 >**[Multi Out Low-Power Supply Unit](https://github.com/gom9000/mopsu)**<br/>
 >**Type**: Power Supply | **Status**: Completed
 >
->A versatile, multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
+>A multi-rail linear low-power supply unit (3.3V, 5V, 9V, 12V) designed to power bench prototypes.
 
 >**[Diode Tester](https://github.com/gom9000/diode-tester)**<br/>
 >**Type**: Component Tester | **Status**: Testing
 >
->Measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
+>A tester to measure the forward voltage drop ($V_f$) of diodes or the working voltage of Zener diodes under selectable currents (1mA, 2mA, 5mA, 10mA, 20mA, 30mA).
 
 >**Dummy Load for Low-Power PSU *(coming soon)***<br/>
 >**Type**: Active Load | **Status**: Development
